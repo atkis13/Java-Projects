@@ -46,21 +46,7 @@ public class RegiterModel {
 			
 		}
 		
-		/*catch(RuntimeException e){
-			Alert alert = new Alert(AlertType.ERROR);
-			alert.setTitle("Error");
-			alert.setHeaderText(null);
-			alert.setContentText("Please insert a number");
-			alert.showAndWait();
-		}*/
-		catch(NumberFormatException se){
-			Alert alert = new Alert(AlertType.ERROR);
-			alert.setTitle("Error");
-			alert.setHeaderText(null);
-			alert.setContentText("Please insert a valid sum");
-			alert.showAndWait();
-		}
-		
+				
 		
 		finally {
 			prepareStatement.close();
