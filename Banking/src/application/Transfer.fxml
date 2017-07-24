@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TransferController">
+   <children>
+   <ImageView fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="img/transfer.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="trans_sum" layoutX="119.0" layoutY="147.0" />
+      <TextField fx:id="trans_acc" layoutX="119.0" layoutY="193.0" />
+      <Button layoutX="134.0" layoutY="234.0" mnemonicParsing="false" onAction="#transferSum" text="OK" />
+      <TextField fx:id="my_acc" layoutX="119.0" layoutY="97.0" />
+      <Label layoutX="28.0" layoutY="99.0" text="your account" />
+      <Label layoutX="28.0" layoutY="149.0" text="SUM" />
+      <Label layoutX="28.0" layoutY="195.0" text="target account" />
+   </children>
+</AnchorPane>
