@@ -1,0 +1,15 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#f_name {	
+	-fx-opacity: 1;
+	-fx-border-color: black;
+	-fx-border-width: 1px;
+	-fx-background-color: rgba(255,255,255,0.5);
+	
+	
+	}
+#f_sum{
+	-fx-opacity: 1;
+	-fx-border-color: black;
+	-fx-border-width: 1px;
+	-fx-background-color: rgba(255,255,255,0.5);
+}
