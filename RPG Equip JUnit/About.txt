@@ -1,0 +1,1 @@
+RPG sword equip test with JUnit
