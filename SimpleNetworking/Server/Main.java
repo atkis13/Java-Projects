@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 public class Main {
 	
-	String[] adviceList = {"go home", "work", " eat", "have sex", "workout", "run"};
+	String[] adviceList = {"go home", "work", " eat", "workout", "run"};
 	
 	public void go() {
 		try {
