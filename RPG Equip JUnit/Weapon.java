@@ -1,5 +1,8 @@
 public class Weapon {
 	int damage;
+	int stamina;	
+	int magic;
+	
 	public int getDamage() {
 		return damage;
 	}
@@ -12,8 +15,6 @@ public class Weapon {
 	public void setStamina(int stamina) {
 		this.stamina = stamina;
 	}
-	int stamina;
 	
-	int magic;
 
 }
